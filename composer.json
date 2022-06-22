@@ -1,0 +1,11 @@
+{
+  "autoload": {
+    "psr-4": {
+      "svdsu\\":"vendor/svdsu",
+      "app\\": "app",
+
+    }
+  },
+  "require": {
+  }
+}
