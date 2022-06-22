@@ -2,7 +2,7 @@
   "autoload": {
     "psr-4": {
       "svdsu\\":"vendor/svdsu",
-      "app\\": "app",
+      "app\\": "app"
 
     }
   },
