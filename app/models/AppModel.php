@@ -4,7 +4,9 @@
 namespace app\models;
 
 
-class AppModel
+use svdsu\Model;
+
+class AppModel extends Model
 {
 
 }

@@ -4,6 +4,7 @@
 namespace svdsu;
 
 
+
 class ErrorHandler
 {
     public function __construct()
@@ -59,13 +60,14 @@ class ErrorHandler
         }
         http_response_code($responce);
         if ($responce == 404 && !DEBUG) {
-            require WWW . '/errors/404.php';
-            die;
+
+            require APP . '/views/Error/404.php';
+
         }
         if (DEBUG) {
             require WWW . '/errors/development.php';
         } else {
-            require WWW . '/errors/production.php';
+            require APP . '/views/Error/404.php';
         }
         die;
 

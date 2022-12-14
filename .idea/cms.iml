@@ -8,6 +8,8 @@
       <sourceFolder url="file://$MODULE_DIR$/vendor/svdsu" isTestSource="false" packagePrefix="svdsu\" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/composer" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/svdsu/helpers" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/gabordemooij/redbean" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/vlucas/valitron" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

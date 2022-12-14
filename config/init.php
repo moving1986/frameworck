@@ -9,8 +9,9 @@ define("HELPERS", ROOT . '/vendor/svdsu/helpers');
 define("CAHCE", ROOT . '/tmp/cache');
 define("LOGS", ROOT . '/tmp/logs');
 define("CONFIG", ROOT . '/config');
-define("LAYOUT", ROOT . 'svdsu');
-define("PATH", ROOT . 'http://frameworck');
-define("ADMIN", ROOT . 'http://frameworck/admin');
+define("LAYOUT",'svdsu');
+define("PATH", 'http://frameworck');
+define("ADMIN", 'http://frameworck/admin');
+
 
 require_once ROOT .'/vendor/autoload.php';

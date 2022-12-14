@@ -19,5 +19,23 @@
             'aliases' => array(),
             'dev_requirement' => false,
         ),
+        'gabordemooij/redbean' => array(
+            'pretty_version' => 'v5.7.2',
+            'version' => '5.7.2.0',
+            'reference' => '2c8ce8a57ed61fce34da1dabbf0f879d76e1ed26',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../gabordemooij/redbean',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'vlucas/valitron' => array(
+            'pretty_version' => 'v1.4.10',
+            'version' => '1.4.10.0',
+            'reference' => '5ebd5d7af82cc0a9d798e816a2ecad63f1b59ceb',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../vlucas/valitron',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
     ),
 );
